@@ -1,5 +1,5 @@
 FROM maven:3.8.4-jdk-11
-WORKDIR /dio-bio
+WORKDIR /certificates
 COPY pom.xml .
 COPY src/ ./src/
 RUN mvn clean install
