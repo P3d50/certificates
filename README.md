@@ -8,6 +8,7 @@ Foi utilizado Java, Spring Boot, Api do chrome web driver.
 
 
 # Sobre a execução do projeto
+  - É necessário ter o Chrome instalado
   - clonar o projeto
   - na pasta raiz do projeto executar o comando abaixo, para dar permissão de execução para o script, esse script builda a imagem do container e roda uma instância do container.
 
@@ -18,9 +19,7 @@ Foi utilizado Java, Spring Boot, Api do chrome web driver.
     ```bash
       $ ./start.sh
     ```
-    
-  - acessar a url do local onde o container está rodando com a porta "8081" e a uri "/home", ex: http://localhost:8081/home
- 
+     
 
 # Sobre a integração com outros microsserviços
 
