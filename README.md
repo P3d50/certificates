@@ -4,7 +4,7 @@
 # Sobre o Projeto apresentado
 
 Esse [microsserviço](https://github.com/P3d50/certificates) faz webscrapping na pagina da DIO, utilizando o login e senha para obter os certificados da conta.
-Foi utilizado Java, Spring Boot, Api do chrome web driver. 
+Foi utilizado Java, Spring Boot, Api do chrome web driver.
 
 
 # Sobre a execução do projeto
@@ -26,9 +26,9 @@ Foi utilizado Java, Spring Boot, Api do chrome web driver.
 
  - [busca os certificados na plataforma da DIO](https://github.com/P3d50/certificates)
  - [envia as informações para o chat-GPT3 via api](https://github.com/P3d50/chatgtp)
- - [API que consome as duas aplicações acima](https://github.com/P3d50/dio-bio)
-
+ - [API que consome os dois serviços acima](https://github.com/P3d50/dio-bio)
  
+ - considerar que tem que inserir informações de usuário e senha da plataforma do .properties do projeto
  - considerar que esses projetos estão em fase inicial e não foram pensadas questões como privacidade e segurança, existem algumas coisas hardcoded que serão melhoradas posteriormente, utilize com cautela.
  - as urls dos serviços estão em hardcoded, chaves de api, etc.. considere isso antes de subir esses projetos para alguma núvem pública.
  
